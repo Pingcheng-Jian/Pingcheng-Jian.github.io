@@ -68,17 +68,16 @@ a {
   text-decoration: none;
 }
 
-pa {
-  color: #1772d0;
-  text-decoration: none;
-}
-
 a:focus,
 a:hover {
   color: #f09228;
   text-decoration: none;
 }
 
+pa {
+  color: #1772d0;
+  text-decoration: none;
+}
 body,
 td,
 th,
@@ -88,7 +87,7 @@ p{
   font-size: 18px
 }
 
-p {
+pa {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px
 }
