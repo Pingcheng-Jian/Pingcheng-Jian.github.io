@@ -80,17 +80,17 @@ th,
 tr,
 /*p,*/
 p{
-  font-size: 18px
+  font-size: 14px
 }
 
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px
+  font-size: 14px
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 heading {
@@ -100,7 +100,7 @@ heading {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700
 }
 
