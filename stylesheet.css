@@ -78,6 +78,13 @@ pa {
   color: #1772d0;
   text-decoration: none;
 }
+
+pa:focus,
+pa:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
 body,
 td,
 th,
