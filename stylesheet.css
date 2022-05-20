@@ -68,6 +68,11 @@ a {
   text-decoration: none;
 }
 
+pa {
+  color: #1772d0;
+  text-decoration: none;
+}
+
 a:focus,
 a:hover {
   color: #f09228;
