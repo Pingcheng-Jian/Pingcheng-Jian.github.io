@@ -99,6 +99,51 @@
             </td>
           </tr>
 
+        <tr onmouseout="advskill_stop()" onmouseover="advskill_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='advskill_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/AdvClaw2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/AdvClaw2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function advskill_start() {
+                  document.getElementById('advskill_image').style.opacity = "1";
+                }
+
+                function advskill_stop() {
+                  document.getElementById('advskill_image').style.opacity = "0";
+                }
+                advskill_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://ieeexplore.ieee.org/document/9561379">
+                <papertitle>Adversarial Skill Learning for Robust Manipulation</papertitle>
+              </a>
+              <br>
+
+              <strong>Pingcheng Jian<sup>*</sup></strong>,
+<!--              <strong>Pingcheng Jian<sup>*</sup></strong>,  <br>-->
+              <span>Chao Yang<sup>*</sup></span>,
+              <span>Di Guo</span>,
+              <span>Huaping Liu</span>,
+              <span>Fuchun Sun</span>
+              <br>
+              <em>ICRA</em>, 2021
+              <br>
+<!--							<a href="http://yenchenlin.me/nerf-supervision/">project page</a> / -->
+							<a href="https://arxiv.org/abs/2011.03383">arXiv</a> /
+							<a href="https://www.youtube.com/watch?v=3ZAQ1NbDt_E">video</a> /
+							<a href="https://github.com/Pingcheng-Jian/Adversarial_Skill_Learning_for_Robust_Manipulation">code</a> /
+<!--							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				-->
+              <p></p>
+              <p>Using adversarial reinforcement learning to imrove the robustness of robotic manipulation.</p>
+            </td>
+          </tr>
+
          <tr onmouseout="physics_guided_stop()" onmouseover="physics_guided_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -183,52 +228,7 @@
               <p>Solve complex bimanual robot manipulation tasks on multiple objects with disentangled attention, which provides an intrinsic regularization for two robots to focus on separate sub-tasks and objects.</p>
             </td>
           </tr>
-
-          <tr onmouseout="advskill_stop()" onmouseover="advskill_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='advskill_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/AdvClaw2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/AdvClaw2.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function advskill_start() {
-                  document.getElementById('advskill_image').style.opacity = "1";
-                }
-
-                function advskill_stop() {
-                  document.getElementById('advskill_image').style.opacity = "0";
-                }
-                advskill_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://ieeexplore.ieee.org/document/9561379">
-                <papertitle>Adversarial Skill Learning for Robust Manipulation</papertitle>
-              </a>
-              <br>
-
-              <strong>Pingcheng Jian<sup>*</sup></strong>,
-<!--              <strong>Pingcheng Jian<sup>*</sup></strong>,  <br>-->
-              <span>Chao Yang<sup>*</sup></span>,
-              <span>Di Guo</span>,
-              <span>Huaping Liu</span>,
-              <span>Fuchun Sun</span>
-              <br>
-              <em>ICRA</em>, 2021
-              <br>
-<!--							<a href="http://yenchenlin.me/nerf-supervision/">project page</a> / -->
-							<a href="https://arxiv.org/abs/2011.03383">arXiv</a> /
-							<a href="https://www.youtube.com/watch?v=3ZAQ1NbDt_E">video</a> /
-							<a href="https://github.com/Pingcheng-Jian/Adversarial_Skill_Learning_for_Robust_Manipulation">code</a> /
-<!--							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				-->
-              <p></p>
-              <p>Using adversarial reinforcement learning to imrove the robustness of robotic manipulation.</p>
-            </td>
-          </tr>
-
+        
         </tbody></table>
 
       </td>
