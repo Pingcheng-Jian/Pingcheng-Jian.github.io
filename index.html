@@ -55,6 +55,50 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+        <tr onmouseout="ps_stop()" onmouseover="ps_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ps_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/PS_realrobot.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/PS_concept.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ps_start() {
+                  document.getElementById('ps_image').style.opacity = "1";
+                }
+
+                function ps_stop() {
+                  document.getElementById('ps_image').style.opacity = "0";
+                }
+                ps_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://openreview.net/pdf?id=2qKBwyLnln">
+                <papertitle>Policy Stitching: Learning Transferable Robot Policies</papertitle>
+              </a>
+              <br>
+
+              <strong>Pingcheng Jian</strong>,
+<!--              <strong>Pingcheng Jian<sup>*</sup></strong>,  <br>-->
+              <span>Easop Lee</span>,
+              <span>Zachary Bell</span>,
+              <span>Michael M. Zavlanos</span>,
+                <span>Boyuan Chen</span>
+              <br>
+              <em>CoRL</em>, 2023
+              <br>
+							<a href="http://generalroboticslab.com/PolicyStitching/">project website</a> /
+							<a href="https://arxiv.org/abs/2309.13753">arXiv</a> /
+							<a href="https://www.youtube.com/watch?v=8HSqDUMNpo4">video</a> /
+<!--							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				-->
+              <p></p>
+              <p>We propose Policy Stitching, a novel framework to facilitate multi-task and multi-robot transfer.</p>
+            </td>
+          </tr>
+
          <tr onmouseout="physics_guided_stop()" onmouseover="physics_guided_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -82,18 +126,17 @@
               <em>L4DC</em>, 2023
               <br>
 
-              <a href="https://ieeexplore.ieee.org/author/37085851990">Reza Khodayi-mehr</a>,
+              <span>Reza Khodayi-mehr</span>,
               <strong>Pingcheng Jian</strong>,
 <!--              <strong>Pingcheng Jian<sup>*</sup></strong>,  <br>-->
-              <a href="https://mems.duke.edu/faculty/michael-zavlanos">Michael M. Zavlanos</a>
+              <span>Michael M. Zavlanos</span>
               <br>
 <!--              <em>ICML workshop</em>, 2021-->
               <br>
 							<a href="https://arxiv.org/abs/1812.03894">arXiv</a>
 <!--							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				-->
               <p></p>
-              <p>We propose a physics-based method to learn environmental fields (EFs) using a mobile robot.
-                  Our proposed framework constructs a posterior distribution of the flow field that better approximates the real flow compared to the prior numerical solutions and purely data-driven methods.</p>
+              <p>We propose a physics-based method to learn environmental fields (EFs) using a mobile robot.</p>
             </td>
           </tr>
 
@@ -123,21 +166,21 @@
               </a>
               <br>
 
-              <a href="https://www.minghaozhang.com/">Minghao Zhang<sup>*</sup></a>,
+              <span>Minghao Zhang<sup>*</sup></span>,
               <strong>Pingcheng Jian<sup>*</sup></strong>,
 <!--              <strong>Pingcheng Jian<sup>*</sup></strong>,  <br>-->
-              <a href="https://scholar.google.com/citations?user=OCauNHUAAAAJ&hl=zh-CN&oi=sra">Yi Wu</a>,
-              <a href="https://scholar.google.com/citations?user=HXnkIkwAAAAJ&hl=zh-CN&oi=ao">Huazhe Xu</a>,
-              <a href="https://ieeexplore.ieee.org/author/37085344232">Xiaolong Wang</a>
+              <span>Yi Wu</span>,
+              <span>Huazhe Xu</span>,
+              <span>Xiaolong Wang</span>
               <br>
               <em>ICML workshop</em>, 2021
               <br>
-							<a href="https://mehooz.github.io/bimanual-attention/">project page</a> /
+							<a href="https://mehooz.github.io/bimanual-attention/">project website</a> /
 							<a href="https://arxiv.org/abs/2106.05907">arXiv</a> /
 							<a href="https://www.youtube.com/watch?v=H4aEm58IrqA">video</a> /
 <!--							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				-->
               <p></p>
-              <p>Disentangled attention provides an intrinsic regularization for two robots to focus on separate sub-tasks and objects. We solve complex bimanual robot manipulation tasks on multiple objects with sparse rewards</p>
+              <p>Solve complex bimanual robot manipulation tasks on multiple objects with disentangled attention, which provides an intrinsic regularization for two robots to focus on separate sub-tasks and objects.</p>
             </td>
           </tr>
 
@@ -169,10 +212,10 @@
 
               <strong>Pingcheng Jian<sup>*</sup></strong>,
 <!--              <strong>Pingcheng Jian<sup>*</sup></strong>,  <br>-->
-              <a href="https://scholar.google.com/citations?user=5KRbHPMAAAAJ&hl=zh-CN">Chao Yang<sup>*</sup></a>,
-              <a href="https://scholar.google.com/citations?user=OCauNHUAAAAJ&hl=zh-CN&oi=sra">Di Guo</a>,
-              <a href="https://scholar.google.com/citations?user=HXnkIkwAAAAJ&hl=zh-CN&oi=ao">Huaping Liu</a>,
-              <a href="https://ieeexplore.ieee.org/author/37085344232">Fuchun Sun</a>
+              <span>Chao Yang<sup>*</sup></span>,
+              <span>Di Guo</span>,
+              <span>Huaping Liu</span>,
+              <span>Fuchun Sun</span>
               <br>
               <em>ICRA</em>, 2021
               <br>
@@ -185,67 +228,6 @@
               <p>Using adversarial reinforcement learning to imrove the robustness of robotic manipulation.</p>
             </td>
           </tr>
-					
-<!--          <tr onmouseout="mip360_stop()" onmouseover="mip360_start()"  bgcolor="#ffffd0">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle">-->
-<!--              <div class="one">-->
-<!--                <div class="two" id='mip360_image'><video  width=100% height=100% muted autoplay loop>-->
-<!--                <source src="images/mip360_sat.mp4" type="video/mp4">-->
-<!--                Your browser does not support the video tag.-->
-<!--                </video></div>-->
-<!--                <img src='images/mip360_sat.jpg' width="160">-->
-<!--              </div>-->
-<!--              <script type="text/javascript">-->
-<!--                function mip360_start() {-->
-<!--                  document.getElementById('mip360_image').style.opacity = "1";-->
-<!--                }-->
-
-<!--                function mip360_stop() {-->
-<!--                  document.getElementById('mip360_image').style.opacity = "0";-->
-<!--                }-->
-<!--                mip360_stop()-->
-<!--              </script>-->
-<!--            </td>-->
-<!--            <td style="padding:20px;width:75%;vertical-align:middle">-->
-<!--              <a href="http://jonbarron.info/mipnerf360">-->
-<!--                <papertitle>Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields</papertitle>-->
-<!--              </a>-->
-<!--              <br>-->
-<!--              <strong>Jonathan T. Barron</strong>,-->
-<!--              <a href="https://bmild.github.io/">Ben Mildenhall</a>,-->
-<!--              <a href="https://scholar.harvard.edu/dorverbin/home">Dor Verbin</a>,-->
-<!--              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,-->
-<!--              <a href="https://phogzone.com/">Peter Hedman</a>-->
-<!--              <br>-->
-<!--							<em>CVPR</em>, 2022 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>-->
-<!--              <br>-->
-<!--              <a href="http://jonbarron.info/mipnerf360">project page</a>-->
-<!--              /-->
-<!--              <a href="https://arxiv.org/abs/2111.12077">arXiv</a>-->
-<!--              /-->
-<!--              <a href="https://youtu.be/zBSH-k9GbV4">video</a>-->
-<!--              <p></p>-->
-<!--              <p>mip-NeRF can be extended to produce realistic results on unbounded scenes.</p>-->
-<!--            </td>-->
-<!--          </tr> -->
-
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle">-->
-<!--              <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">-->
-<!--            </td>-->
-<!--            <td width="75%" valign="middle">-->
-<!--              <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">-->
-<!--                <papertitle>Cleaning the USNO-B Catalog Through Automatic Detection of Optical Artifacts</papertitle>-->
-<!--              </a>-->
-<!--              <br>-->
-<!--              <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>-->
-<!--              <br>-->
-<!--              <em>The Astronomical Journal</em>, 135, 2008-->
-<!--              <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>-->
-<!--              <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>-->
-<!--            </td>-->
-<!--          </tr>-->
 
         </tbody></table>
 
