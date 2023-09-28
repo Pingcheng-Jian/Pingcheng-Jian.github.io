@@ -47,12 +47,14 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                My education background is in control theory, and my current research is about robot learning.
+                My current research is about robot learning, and my previous publications mostly focus on robotic manipulation.
+                  I also have education background in control theory, and I am very interested in the combination of machine learning and control theory.
 <!--                Representative papers are <span class="highlight">highlighted</span>.-->
               </p>
             </td>
           </tr>
         </tbody></table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
         <tr onmouseout="ps_stop()" onmouseover="ps_start()">
@@ -176,7 +178,7 @@
                 <br>
               <i><conference>Learning for Dynamics and Control (L4DC)</conference></i><conference>, 2023</conference>
               <br>
-							<a href="https://arxiv.org/abs/1812.03894">arXiv</a>
+							<a href="https://arxiv.org/abs/1812.03894">arXiv</a> /
 <!--							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				-->
               <p></p>
               <p>We propose a physics-based method to learn environmental fields (EFs) using a mobile robot.</p>
@@ -229,6 +231,71 @@
 
         </tbody></table>
 
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Projects</heading>
+              <p>
+                Some course projects show my engineering capability.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr onmouseout="advskill_stop()" onmouseover="advskill_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='spiderbot_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/SpiderBot_teaser.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/SpiderBot_cover.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function advskill_start() {
+                  document.getElementById('spiderbot_image').style.opacity = "1";
+                }
+
+                function advskill_stop() {
+                  document.getElementById('spiderbot_image').style.opacity = "0";
+                }
+                advskill_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://www.youtube.com/watch?v=ELG61w5GGF8">
+                <papertitle>Quadruped Spider Robot</papertitle>
+              </a>
+              <br>
+                <p></p>
+<!--							<a href="http://yenchenlin.me/nerf-supervision/">project page</a> / -->
+							/ <a href="https://www.youtube.com/watch?v=3ZAQ1NbDt_E">video</a> /
+              <p></p>
+              <p>I built all the hardware and software of this spider robot from scratch.
+                  I drew the parts of this robot with SOLIDWORKS and then printed them with 3D printer.
+                  The controller of this robot is a Raspberry Pi, and the control algorithm is written in Python.
+                  Then I generated the .urdf files of this robot and built the simulator of this robot with PyBullet.</p>
+            </td>
+          </tr>
+
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Teaching Experience</heading>
+              <p>
+                Teaching Assistant at Duke: <a href="https://lipp.pratt.duke.edu/controls">ECE 382/ME 344</a> - Control of Dynamic Systems
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+
+              </tbody></table>
       </td>
     </tr>
   </table>
