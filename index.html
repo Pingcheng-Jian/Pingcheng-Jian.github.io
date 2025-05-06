@@ -66,6 +66,50 @@
             <strong><heading>Journal Papers</heading></strong>
           </td>
         </tr>
+
+                <tr onmouseout="lapp_stop()" onmouseover="lapp_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lapp_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/LAPP.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/LAPP.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function lapp_start() {
+                  document.getElementById('lapp_image').style.opacity = "1";
+                }
+
+                function lapp_stop() {
+                  document.getElementById('lapp_image').style.opacity = "0";
+                }
+                lapp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="data/2025_RSS_LAPP.txt">
+                <papertitle>LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning</papertitle>
+              </a>
+              <br>
+
+              <strong>Pingcheng Jian</strong>,
+<!--              <strong>Pingcheng Jian<sup>*</sup></strong>,  <br>-->
+              <span>Xiao Wei</span>,
+              <span>Yanbaihui Liu</span>,
+              <span>Samuel A. Moore</span>,
+                <span>Michael M. Zavlanos</span>,
+                <span>Boyuan Chen</span>
+              <br>
+                <i><conference>In submission to Transactions on Machine Learning Research (TMLR)</conference></i><conference>, 2025</conference>
+              <br>
+							<a href="data/2025_TMLR_LAPP.txt">pdf</a> /
+              <p></p>
+<!--              <p>We present LAPP (LLM-Assisted Preference Prediction), a novel framework that leverages LLMs to generate preference feedback from raw state-action trajectories that is used to guide reinforcement learning (RL) agents.</p>-->
+                <p> </p>
+            </td>
+          </tr>
+
         <tr onmouseout="pes_stop()" onmouseover="pes_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -115,49 +159,6 @@
             <strong><heading>Conference Papers</heading></strong>
           </td>
         </tr>
-
-        <tr onmouseout="ps_stop()" onmouseover="ps_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ps_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/LAPP.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/LAPP.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function ps_start() {
-                  document.getElementById('ps_image').style.opacity = "1";
-                }
-
-                function ps_stop() {
-                  document.getElementById('ps_image').style.opacity = "0";
-                }
-                ps_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="data/2025_RSS_LAPP.txt">
-                <papertitle>LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning</papertitle>
-              </a>
-              <br>
-
-              <strong>Pingcheng Jian</strong>,
-<!--              <strong>Pingcheng Jian<sup>*</sup></strong>,  <br>-->
-              <span>Xiao Wei</span>,
-              <span>Yanbaihui Liu</span>,
-              <span>Samuel A. Moore</span>,
-                <span>Michael M. Zavlanos</span>,
-                <span>Boyuan Chen</span>
-              <br>
-                <i><conference>In submission to Transactions on Machine Learning Research (TMLR)</conference></i><conference>, 2025</conference>
-              <br>
-							<a href="data/2025_TMLR_LAPP.txt">pdf</a> /
-              <p></p>
-<!--              <p>We present LAPP (LLM-Assisted Preference Prediction), a novel framework that leverages LLMs to generate preference feedback from raw state-action trajectories that is used to guide reinforcement learning (RL) agents.</p>-->
-                <p> </p>
-            </td>
-          </tr>
 
         <tr onmouseout="ps_stop()" onmouseover="ps_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
